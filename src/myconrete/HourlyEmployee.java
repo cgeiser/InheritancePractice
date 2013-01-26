@@ -9,11 +9,10 @@ package myconrete;
  * @author chrisgeiser
  */
 public class HourlyEmployee extends Employee {
-    private double hourRate, hoursWorked, grossPay;
+    public double hourRate, hoursWorked;
     
 
     public double getGrossPay() {
-        grossPay = hourRate * hoursWorked;        
-        return grossPay;
+        return hourRate * hoursWorked;
     }
 }
